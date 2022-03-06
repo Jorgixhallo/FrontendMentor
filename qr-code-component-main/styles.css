@@ -1,0 +1,34 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.component {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.component--qrcode {
+    width: 90%;
+    border-radius: 10px;
+    margin: 5%;
+    
+}
+.component--info{
+    padding: 0 30px 15px 30px;
+    text-align: center;
+}
+
+.component--info--title {
+    color: hsl(218, 44%, 22%);
+}
+
+.component--info--text {
+    color: hsl(220, 15%, 55%)
+}
